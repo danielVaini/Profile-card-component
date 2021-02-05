@@ -5,3 +5,18 @@
   box-sizing: border-box;
 }
 
+body {
+  width: 100vw;
+  height: 100vw;
+
+  background-color: hsl(185, 75%, 39%);
+  
+  background-image: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-position: left -70% top -50%, right -70% bottom 50%;
+
+  overflow: hidden;
+
+}
+
