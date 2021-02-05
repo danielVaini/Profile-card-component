@@ -9,4 +9,17 @@
 
   flex-direction: column;
 
+  background: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg) left top fixed,
+  right bottom fixed;
+  background-repeat: no-repeat;
+  
+  background-position: left -500px top -500px, right -500px bottom -500px;
+
+  
+
+
+  @media (max-width: 700px) {
+    background-size: 800px;
+  }
+  
 }
