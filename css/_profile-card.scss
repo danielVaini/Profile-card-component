@@ -16,4 +16,9 @@
   &:first-child {
     justify-content: start;
   }
+
+  @media (max-width: 400px) {
+    width: 300px;
+    height: 340px;
+  }
 }

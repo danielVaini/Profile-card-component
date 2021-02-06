@@ -1,0 +1,15 @@
+.about {
+  p span{
+    font-weight: 700;
+  }
+
+   p {font-weight: 300;}
+}
+
+.followers, .likes, .photos {
+  &::first-line {
+    font-weight: 700;
+  }
+
+
+}
